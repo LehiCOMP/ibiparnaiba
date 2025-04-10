@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 100" width="200" height="100">
+  <style>
+    .st0 { fill: #3b82f6; }
+    .st1 { fill: #1e3a8a; }
+    .cross { transform-origin: center; animation: pulse 3s infinite; }
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.1); }
+      100% { transform: scale(1); }
+    }
+  </style>
+  <g>
+    <!-- Church Building -->
+    <path class="st1" d="M50,70 L50,40 L100,20 L150,40 L150,70 Z" />
+    <rect class="st1" x="70" y="50" width="20" height="20" />
+    <rect class="st1" x="110" y="50" width="20" height="20" />
+    <rect class="st1" x="90" y="60" width="20" height="10" />
+    
+    <!-- Cross -->
+    <g class="cross">
+      <rect class="st0" x="95" y="25" width="10" height="35" />
+      <rect class="st0" x="85" y="35" width="30" height="10" />
+    </g>
+    
+    <!-- Text "IBI" -->
+    <text x="50" y="90" font-family="Arial, sans-serif" font-weight="bold" font-size="18" fill="#3b82f6">IGREJA BATISTA IBI</text>
+  </g>
+</svg>
